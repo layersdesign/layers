@@ -11,6 +11,7 @@ body{
 	/*background: url('../images/image_1.png') no-repeat right 90px top 80px,url('../images/image_2.png') no-repeat right 90px top 324px;*/
 	background-size: 303px 230px;
 	background-color: #fff;
+	box-sizing: border-box;
 }
 h1{
 	font-size: 23px;
@@ -55,7 +56,7 @@ i:hover{
 @media only screen and (max-width:870px){
 	.container{
 		padding: 30px;
-		background-position: left 20px top 411px,left 20px top 655px;
+		width: 100%;
 	}
 	/*.main_content{
 		padding-bottom: 525px;
